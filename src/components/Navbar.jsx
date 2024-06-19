@@ -1,6 +1,6 @@
 import { Box, Flex, Link, Spacer, Heading, Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
 import { useState } from "react";
-import { SearchIcon } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 import { Link as RouterLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
         <Heading as="h1" size="lg" color="white">ElectroShop</Heading>
         <InputGroup maxW="300px" mx={2}>
           <InputLeftElement pointerEvents="none">
-            <SearchIcon color="gray.300" />
+            <FaSearch color="gray.300" />
           </InputLeftElement>
           <Input
             type="text"
